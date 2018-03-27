@@ -28,6 +28,6 @@ export default new Vuex.Store({
         }
     },
     modules: {
-        TableStore
+        TableStore,
     }
 })
