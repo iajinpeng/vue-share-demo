@@ -1,7 +1,7 @@
 /**
  * Created by jinpeng on 2018/3/27.
  */
-import * as types from './mutation-types'
+import * as types from '../mutation-types'
 export default {
     state: {
         data: [
