@@ -1,16 +1,14 @@
 /**
- * Created by DELL on 2018/3/26.
+ * Created by jinpeng on 2018/3/26.
  */
-import Vue from 'vue'
-import Router from 'vue-router'
+
 import HelloWorld from './pages/HelloWorld'
 import ErrorPage from './pages/Error'
 import TablePage from './pages/Table'
 import AddPage from './pages/Add'
 
-Vue.use(Router)
 
-export default new Router({
+export default {
     mode: 'history',
     routes: [
         {
@@ -30,4 +28,4 @@ export default new Router({
             component: AddPage
         }
     ]
-})
+}
